@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>MonitoringandControlling</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+     <div class="container-fluid">
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+         </button>
+        <a href="#home" class="navbar-brand page-scroll" >Monitoring dan Controlling</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#abstrak" class="page-scroll">Gambaran Umum</a></li>
+          <li><a href="#signin" class="page-scroll">Sign In</a></li>
+        </ul>
+      </div>
+     </div>
+  </nav>
+  <!-- akhir navbar -->
+
+  <img src="img/pens.png" alt="pens" height="80px" align="right"/>
+    <!-- start jumbotron -->
+    <div class="jumbotron">
+      <img src="img/marta.png" class="img-circle center-block">
+      <h2 class="text-center">Monitoring dan Controlling Laju  Tetesan Cairan Infus Berdasarkan Proses Tatalaksana Dehidrasi pada Anak Berbasis Web</h2>
+      <p class="text-center">Marta diana | 1110171056 | D4 Teknik Elektronika</p>
+
+    </div>
+    <!-- akhir jumbotron -->
+
+    <!-- abstrak -->
+    <section class="abstrak" id="abstrak">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">Gambaran Umum</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12"></div>
+          <p class="text-center"> Diare merupakan penyakit endemis potensial Kejadian Luar Biasa (KLB)
+              yang sering disertai dengan kematian di Indonesia. Salah satu akibat diare
+              yaitu hilangnya cairan dalam tubuh, atau disebut dengan dehidrasi.
+              Derajat dehidrasi dapat dibagi menjadi 3 yaitu tanpa dehidrasi, dehidrasi
+              ringan-sedang dan dehidrasi berat. Pembagian derajat dehidrasi dapat
+              dilihat dari kondisi fisik dan denyut jantung pada anak. Denyut jantung
+              akan dideteksi dengan menggunakan metode photoplethysmograph
+              (PPG) secara reflectance dengan menggunakan sensor MAX30102.
+              Kemudian motor servo dengan kendali Proportional Integral berperan
+              untuk mendorong klem infus untuk mengatur jumlah tetesan pada infus
+              setiap menitnya sesuai dengan setting poin yang telah ditentukan. LED
+              dan photodioda difungsikan untuk mendeteksi tetesan infus. Sensor load
+              cell difungsikan untuk mendeteksi volume infus. Sensor optocoupler
+              difungsikan untuk mendeteksi emboli udara. Sensor TCS34725
+              difungsikan untuk mendeteksi naiknya darah pada selang infus. Hasil dari
+              monitoring dan controlling yang diproses oleh Arduino Uno dan
+              dikirimkan ke ESP32 melalaui Komunikasi Serial, yang akan disimpan
+              pada database MySQL, kemudian data yang terkumpul akan ditampilkan
+              pada website sebagai user interface.</p>
+        </div>
+      </div>
+    </section>
+    <!-- akhir abstrak -->
+
+    <!-- Sign in -->
+    <section class="signin" id="signin">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">Tenaga Medis</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <form>
+              <div class="form-group">
+                <label for="nama">ID Tenaga Medis</label>
+                <input type="text" id="nama" class="form-control" placeholder="masukkan id">
+              </div>
+              <div class="form-group">
+                <label for="password1">Password</label>
+                <input type="password" id="password1" class="form-control" placeholder="Password">
+              </div>
+              <button type="button" class="btn btn-primary">Sign In</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir sign in -->
+
+    <!-- footer -->
+    <footer>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-12">
+            <p>&copy; copyright 2021 | built by. <a href="https://www.instagram.com/martaadiana_/">Marta Diana</a>.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+    <script type="js/retina.min.js"></script>
+  </body>
+</html>

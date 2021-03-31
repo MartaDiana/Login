@@ -1,0 +1,98 @@
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 120px;
+	margin-top: 50px;
+}
+
+.jumbotron {
+	height: 400px;
+	background-image: url('../img/bg2.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -250px;
+	color: #eaeaea;
+}
+
+
+.jumbotron img{ 
+	width: 200px;
+	border: 5px solid #eaeaea;
+}
+
+ hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+
+.abstrak {
+	min-height: 800px;
+}
+.signin {
+	background-color: #eee;
+	min-height: 800px; 
+}
+
+footer {
+	background-color: #333;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	padding-top: 30px;
+}
+
+footer p {
+	color: #aaa;
+	font-size: 1em;
+}
+
+/*page 1*/
+.page1-header {
+	background-color: #021230;
+	min-height: 100px;
+}
+
+.tulisan {
+	color: white;
+}
+
+.biodata {
+	min-height: 500px;
+}
+
+.page1-header h5{
+margin-top: 25px;
+margin-bottom: 10px;
+color: white;
+position: relative;
+}
+
+.page1-header img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 70px;
+	position: relative;
+}
+
+
+
+
+/*akhir page 1*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
